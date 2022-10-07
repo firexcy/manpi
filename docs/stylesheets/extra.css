@@ -175,3 +175,21 @@
 .md-banner {
   font-weight: bold;
 }
+
+/* print page toc */
+
+.print-page-toc-nav *::before,
+.print-page-toc-nav *::after,
+.print-page-toc-nav li::marker {
+  content: none !important;
+}
+
+.print-page-toc-nav .print-site-toc-level-2,
+.print-page-toc-nav .print-site-toc-level-3 {
+  border-left: solid 1px var(--md-accent-fg-color);
+}
+
+.print-page-toc-nav .print-site-toc-level-2 li,
+.print-page-toc-nav .print-site-toc-level-3 li {
+  text-indent: 3%;
+}

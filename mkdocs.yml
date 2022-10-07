@@ -74,6 +74,7 @@ plugins:
       enumerate_headings: false
       #enumerate_headings_depth: 3
       add_cover_page: true
+      enumerate_figures: false
       cover_page_template: "docs/assets/templates/cover.tpl"
       print_page_title: "可打印版本"
       toc_title: "目录"
