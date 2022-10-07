@@ -1,17 +1,51 @@
-# Welcome to MkDocs
+---
+hide:
+  - navigation
+  - toc
+---
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+# 欢迎
 
-## Commands
+欢迎来到少数派创作。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+少数派是一个开放、包容的创作平台。
+我们鼓励用户从日常生活中发现值得思考的话题，并将研究探索的成果与社区分享。此外，我们尊重创作者的智力成果，为内容提供多元的展示渠道和有竞争力的奖励。
 
-## Project layout
+本文档旨在：
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. 编纂和更新少数派与内容创作相关的流程和规范，促进内容工作的规范、透明和高效，并为后续更新和完善提供可扩展的框架；
+2. 为少数派的创作者提供查阅流程和规范的统一方式，以便其更有效地分享有价值的内容，并获得与付出匹配的回报；以及
+3. 向外部介绍和推广少数派的风格和模式。
+
+## 使用说明
+
+### 阅读方式
+
+本文档总体上按照在少数派参与创作的流程编写，可以从头按顺序完整阅读，也可以作为创作过程中的参考文件按需查阅。
+
+你可以从下面的列表中直接跳转到感兴趣的部分阅读：
+
+- 适合在少数派创作的内容选题和形式：参阅[动笔之前](/guide/starter)；
+- 申请成为少数派作者的流程：参阅[申请创作](/guide/apply)；
+- 使用少数派编辑器写作和提交文章的步骤：参阅[文章编辑](/guide/edit)；
+- 文章的分类方式和处理流程：参阅[提交投稿](/guide/submit)和[审阅流程](/guide/process)；
+- 内容质量的评判标准：参阅[通用规则](/rules/common)和[特别规则](/rules/specific)；
+- 语言、版式、内容元素等方面的细节要求：参阅[风格指南](/rules/style)。
+
+你也可以使用页面右上角的搜索 :octicons-search-16: 功能快速查找需要的内容。
+
+### 标注体例 {#markups}
+
+本文档中各子页面虽然单独成篇，但也通过相互引用构成一个整体；这类内部链接以[双方括号](#markups)的样式标出。
+
+本文档中以注意 :material-alert:、说明 :material-pencil-circle:、参阅 :octicons-cross-reference-16: 或举例 :material-test-tube: 等图案标记的内容是参考性的，旨在对正文内容作提示或阐明，不视为相关规则的一部分。
+
+### 可打印版本
+
+如需打印或离线保存本文档全文，可以点击页面右上角的下载 :octicons-download-16:，然后根据页面提示打印或保存为 PDF。
+
+如果只需保存单个子页面，可以直接在该页面选择浏览器菜单栏的「文件」>「打印…」，然后根据界面提示操作。
+
+## 解释和反馈
+
+本文档由少数派编辑部编纂并负责解释。尽管我们尽力做到清晰和完整，但仍然可能存在错漏，敬请谅解。如对本文档的内容有疑问或建议，请[联系我们](/about/contact)。

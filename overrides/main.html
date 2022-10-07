@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block announce %}
+<span class="twemoji">
+    {% include ".icons/octicons/stop-24.svg" %}
+</span>
+你正在查看本文档的非正式版本，其内容可能不经通知而变化。
+查阅
+<a href="/about/changelog">
+    更新日志
+</a>
+了解当前版本。
+{% endblock %}
+
+{% block content %}
+
+{% if page.url_to_print_page %}
+<a href="{{ page.url_to_print_page }}" title="可打印版本" class="md-content__button md-icon">
+    {% include ".icons/octicons/download-24.svg" %}
+</a>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
+

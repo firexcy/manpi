@@ -1,0 +1,39 @@
+#print-site-page h1.nav-section-title,
+#print-site-page h2.nav-section-title,
+#print-site-page h3.nav-section-title,
+#print-site-page h4.nav-section-title,
+#print-site-page h5.nav-section-title,
+#print-site-page h6.nav-section-title {
+  font-weight: bold !important;
+  color: var(--md-primary-fg-color);
+}
+
+#print-site-banner {
+    border-color: var(--md-primary-fg-color);
+}
+
+.print-page-toc-title {
+    text-align: center;
+}
+
+
+.print-site-toc-level-2 * {
+    color: #000 !important;
+}
+
+.toc-nav-section-title {
+    color: var(--md-primary-fg-color);
+    font-weight: bold;
+}
+
+#print-page-toc * {
+    font-size: 1em !important;
+}
+
+.print-page-toc-nav {
+    column-count: 2;
+}
+
+#print-site-page ul.toc-section-line-border { 
+    border-left: 1px solid var(--md-primary-fg-color);
+}

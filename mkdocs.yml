@@ -1,1 +1,123 @@
-site_name: My Docs
+site_name: "少数派创作手册"
+site_author: "少数派编辑部"
+site_description: "少数派创作手册"
+site_url: null
+#site_url: http
+copyright: "版权所有 &copy; 2022 少数派 SSPAI"
+extra:
+  # Version number to be referenced by extensions
+  version: "0.0.1a (build 22100200)"
+
+nav:
+  - "欢迎": index.md
+  - "创作指南":
+      - "动笔之前": guide/starter.md
+      - "申请创作": guide/apply.md
+      - "文章编辑": guide/edit.md
+      - "提交投稿": guide/submit.md
+      - "审阅流程": guide/process.md
+      - "收益福利": guide/perks.md
+  - "风格规范":
+      - "通用规则": rules/common.md
+      - "特别规则": rules/specific.md
+      - "风格指南": rules/style.md
+  - "关于":
+      - "联系我们": about/contact.md
+      - "许可信息": about/license.md
+      - "更新日志": about/changelog.md
+
+theme:
+  name: "material"
+  custom_dir: overrides
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: "切换到深色主题"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: "切换到浅色主题"
+  favicon: assets/favicon.ico
+  logo: "assets/sspai-man.svg"
+  features:
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+extra_css:
+  - stylesheets/extra.css
+  # Stylesheets for PDF export
+  - stylesheets/print.css
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+  #  - enumerate-headings
+  - print-site:
+    # See docs at https://timvink.github.io/mkdocs-print-site-plugin/
+      enumerate_headings: false
+      #enumerate_headings_depth: 3
+      add_cover_page: true
+      cover_page_template: "docs/assets/templates/cover.tpl"
+      print_page_title: "可打印版本"
+      toc_title: "目录"
+      add_print_site_banner: true
+      print_site_banner_template: "docs/assets/templates/banner.tpl"
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  #- pymdownx.betterem:
+  #   smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.smartsymbols
