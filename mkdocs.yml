@@ -1,11 +1,11 @@
 site_name: "少数派创作手册"
 site_author: "少数派编辑部"
 site_description: "少数派创作手册"
-site_url: null
-#site_url: http
+site_url: "https://manpi.netlify.app/"
+#site_url: https://manual.sspai.com
 copyright: "版权所有 &copy; 2022 少数派 SSPAI"
 extra:
-  # Version number to be referenced by extensions
+  # Version number to be referenced dynamically
   version: "0.0.1a (build 22100200)"
 
 nav:
