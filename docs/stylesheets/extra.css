@@ -143,13 +143,13 @@
 
 /* bidirectional link-style */
 
-.md-content :not(.print-site-banner) article p a:not([href^=http])::before,
-.md-content :not(.print-site-banner) article li a:not([href^=http])::before {
+.md-content  article p a:not([href^=http])::before,
+.md-content  article li a:not([href^=http])::before {
   content: "\00a0[[\00a0";
 }
 
-.md-content :not(.print-site-banner) article p a:not([href^=http])::after,
-.md-content :not(.print-site-banner) article li a:not([href^=http])::after {
+.md-content  article p a:not([href^=http])::after,
+.md-content  article li a:not([href^=http])::after {
   content: "\00a0]]\00a0";
 }
 
@@ -180,7 +180,9 @@
 
 .print-page-toc-nav *::before,
 .print-page-toc-nav *::after,
-.print-page-toc-nav li::marker {
+.print-page-toc-nav li::marker,
+#print-site-banner *::before,
+#print-site-banner *::after {
   content: none !important;
 }
 
