@@ -16,7 +16,10 @@
 
 {% if page.url_to_print_page %}
 <a href="{{ page.url_to_print_page }}" title="可打印版本" class="md-content__button md-icon">
-    {% include ".icons/octicons/download-24.svg" %}
+    {% include ".icons/material/printer.svg" %}
+</a>
+<a href="javascript:window.print()" title="可打印版本" class="md-content__button md-icon no_style">
+    {% include ".icons/material/file-download-outline.svg" %}
 </a>
 {% endif %}
 
