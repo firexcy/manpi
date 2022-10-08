@@ -55,7 +55,7 @@
 - 如中文译名不够为人所知或存在多种版本，在第一次出现位置以「[中文译名]（[原名] [其他常见译名（如有）]）」的体例标注。
 
 !!! xref "参阅"
-    关于常见科技类名词的正式名称以及在少数派的可接受用法，参阅本指南[附录一](#tech-terms)。
+    关于常见科技类名词的正式名称以及在少数派的可接受用法，参阅[附录](#tech-terms)。
 
     关于信息技术领域术语在不同地域的表述对照，参阅维基百科公共转换组「[信息技术](https://zh.wikipedia.org/wiki/Module:CGroup/IT)」。
 
@@ -448,7 +448,7 @@
 !!! example "举例"
     在 Emacs 中，按 `C-x C-s` 将缓冲区保存到文件。
 
-    安装 Vim 文件浏览插件 NERDTree 后，按 `<leader\>n` 即可在侧边窗口中显示。
+    安装 Vim 文件浏览插件 NERDTree 后，按 `<leader> n` 即可在侧边窗口中显示。
 
 ### 界面元素 {#ui-elements}
 
@@ -541,9 +541,12 @@
     - [Lipsum generator](https://lipsum.com/)（英文）
     - [乱数假文生成器](http://www.richyli.com/tool/loremipsum/)（繁体中文，需自行转为简体）
 
-虚构 IP 地址时，宜使用以下地址段之一：`192.0.2.0/24`、`198.51.100.0/24` 和 `203.0.113.0/24`，并遵循 [RFC 5737](https://datatracker.ietf.org/doc/html/rfc5737) 的其他要求。
+虚构 IP 地址时，宜使用以下地址段之一：`192.0.2.0/24`、`198.51.100.0/24` 和 `203.0.113.0/24`。
 
-虚构域名时，宜使用 `example.com` 及其子域名，并遵循 [RFC 6761](https://datatracker.ietf.org/doc/html/rfc6761) 的其他要求。
+虚构域名时，宜使用 `example.com` 及其子域名。
+
+!!! xref "参阅"
+    要了解关于虚构 IP 地址和域名的细节规范，参阅 [RFC6890](https://datatracker.ietf.org/doc/html/rfc6890) (_Special-Purpose IP Address Registries_) 和 [RFC 6761](https://datatracker.ietf.org/doc/html/rfc6761) (_Special-Use Domain Names_)。
 
 ## 图片 {#img}
 
@@ -553,7 +556,12 @@
 
 使用他人图片，或在图片中使用来自他人的素材，应尊重版权并标注来源。
 
-特别地，如果在编辑和标注图片时使用了有版权的素材，应遵循和单独使用该等素材同样的来源标注要求。图片中的文本标注应使用具有适当授权的字体，例如操作系统内置、根据用户协议可以用于此用途的字体，或者使用开放许可证传播的字体。
+图片中的文本标注应使用具有适当授权的字体。
+
+!!! note "说明"
+    一般而言，操作系统内置的字体允许用于制作图片用途，例如参见 [_Font redistribution FAQ for Windows_](https://learn.microsoft.com/en-us/typography/fonts/font-faq)，[_Software License Agreement for macOS Monterey_](https://images.apple.com/legal/sla/docs/macOSMonterey.pdf) (§ 2E)。一个例外是 Apple 的系统默认字体 San Francisco，其授权要求仅限开发者用于创建 Apple 平台软件的演示图片。
+
+    我们建议使用开放许可证或者明确可免费商用的字体来标注截图。这类字体可以从 [Google Fonts](https://fonts.google.com/)（西文字体为主）、[猫啃网](https://www.maoken.com/)（中文字体为主）等站点下载。
 
 ### 尺寸和形态
 
@@ -577,12 +585,16 @@
 
 ### 题注文本
 
-1. 文章插入图片，宜同时填写题注文本。
-2. 除引注来源外，不应通过题注文本表达正文中未包含的信息。
+文章插入图片，宜同时填写题注文本。
+
+除引注来源外，不应通过题注文本表达正文中未包含的信息。
 
 ### 动态图片
 
 除非为实现文章目的所必需，宜避免使用动态图片。
+
+!!! note "说明"
+    GIF 格式动图在实践中标准较为混乱，不同软件所创建的 GIF 效果差异巨大；体积过大的动图对于服务器和用户网络都是负担。此外，过多动态元素也会对读者构成干扰。因此，我们要求只在静态图片不足以传达信息的情况下使用 GIF 图片。
 
 ### 题图 {#hero-img}
 

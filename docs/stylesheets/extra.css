@@ -143,13 +143,13 @@
 
 /* bidirectional link-style */
 
-.md-content  article p a:not([href^=http])::before,
-.md-content  article li a:not([href^=http])::before {
+.md-content article p a:not([href^=http])::before,
+.md-content article li a:not([href^=http])::before {
   content: "\00a0[[\00a0";
 }
 
-.md-content  article p a:not([href^=http])::after,
-.md-content  article li a:not([href^=http])::after {
+.md-content article p a:not([href^=http])::after,
+.md-content article li a:not([href^=http])::after {
   content: "\00a0]]\00a0";
 }
 
@@ -176,8 +176,8 @@
   font-weight: bold;
 }
 
-/* print page toc */
-
+/* style print page toc */
+/* remove internal link decorations */
 .print-page-toc-nav *::before,
 .print-page-toc-nav *::after,
 .print-page-toc-nav li::marker,
@@ -186,9 +186,10 @@
   content: none !important;
 }
 
+/* visual guidelines for indented toc items */
 .print-page-toc-nav .print-site-toc-level-2,
 .print-page-toc-nav .print-site-toc-level-3 {
-  border-left: solid 1px var(--md-accent-fg-color);
+  border-left: solid 0.5px var(--md-accent-fg-color);
 }
 
 .print-page-toc-nav .print-site-toc-level-2 li,

@@ -238,7 +238,7 @@
 
 准备好发布后，点击工具栏的「发布按钮」，将弹出「请选择发布通道」界面，提示从 :octicons-people-16: 社区通道 和 :octicons-paper-airplane-16: 投稿通道 中挑选其一。
 
-![](/assets/media/select-channel.png){ width="650" }
+![](/assets/media/select-channel.png){ width="400" }
 
 !!! xref "参阅"
 
