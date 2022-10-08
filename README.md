@@ -1,3 +1,26 @@
-> ⚠️ **Deprecation Notice** 🏳
->
-> We are focusing our resources on building new templates that help you build a better web, because of that we're deprecating this template. We care about the community so we propose if anyone wants to maintain or take stewardship over the project please contact us at [devexperience [at] netlify [dot] com](mailto:devexperiencenetlify.com). If you want to share anything with the team about this template, you can also fill out [this form](https://template-feedback.netlify.app/)
+# SSPAI Manual of Creators
+
+Source files of the _SSPAI Manual of Creators_.
+
+To build locally, clone this repo and install requirements with
+
+```bash
+pip install -r requirements.txt
+```
+
+Then start a local dev server with
+
+```bash
+mkdocs serve
+```
+
+Or build the full site with
+
+```bash
+mkdocs build
+```
+
+For license information, see `docs/about/license.md`.
+
+It is recommended to send your comments to `contact (at) sspai.com`.
+Pull requests and issues are not processed at this time.
