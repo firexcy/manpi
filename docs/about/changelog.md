@@ -1,9 +1,14 @@
 # 更新日志
 
+## 0.1.0a (build 22100800)
+
+- 新增：文章编辑—关于第三方 Markdown 编辑器和飞书云文档的简要说明
+- 新增：风格指南—常见图片压缩工具
+
 ## 0.0.2a (build 22100800)
 
-Subtle changes to the stylesheets for printing.
+微调打印样式的 CSS。
 
 ## 0.0.1a (build 22100700)
 
-Initial release.
+初次发布。

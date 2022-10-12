@@ -1,6 +1,6 @@
 # 文章编辑
 
-## 使用编辑器
+## 使用站内编辑器
 
 少数派提供了一个简洁的在线编辑器，能够满足大多数的文章编辑需要。
     这是一个「所见即所得」的富文本编辑器，但也支持常见 Markdown 语法。
@@ -77,7 +77,7 @@
 
     少数派编辑器基于 [CKEditor](https://ckeditor.com/docs/) 开发，大体上实现了 [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/#disallowed-raw-html-extension-) 的语法和特性，但并不支持所有的扩展语法（例如表格、任务列表等），对于一些复杂或嵌套语法的解析可能存在瑕疵（例如，不支持单个列表项目下嵌套多个段落或其他块级元素）。
 
-### 插入图片
+### 插入图片 {#online-editor-img}
 
 插入单张图片
 {.inline-headings}
@@ -162,6 +162,47 @@
 ![](/assets/media/app-preview-card.png){ width="650" }
 
 如果你输入的链接对应的应用未被少数派收录，可以点击「去添加」字样，将该应用手动收录，然后即可插入该应用的卡片。
+
+## 使用外部编辑器
+
+### 第三方 Markdown 编辑器
+
+如上所述，少数派编辑器支持将粘贴的 Markdown 格式文本转换为富文本。因此，你可以在写作阶段使用任何自己惯用的 Markdown 编辑器，基本定稿后再粘贴到少数派编辑器来预览和发布。
+
+少数派上有很多关于 Markdown 编辑器的推荐和技巧，你可以[在站内搜索「Markdown」](https://sspai.com/search/post/markdown)来了解。以下是部分少数派用户讨论较多的选择（名称字母排序）：
+
+- [Bear](https://bear.app/)：免费、订阅解锁高级功能，支持 macOS 和 iOS；
+- [iA Writer](https://ia.net/writer)：一次性收费（Android 版也可订阅），支持 macOS、Windows、iOS 和 Android；
+- [Obsidian](https://obsidian.md/)：个人用途免费，支持 macOS、Windows、Linux、iOS 和 Android；
+- [Pure Writer (纯纯写作)](https://writer.drakeet.com/)：免费、订阅解锁高级功能，支持 Android；
+- [Typora](https://typora.io/)：一次性收费，支持 macOS、Windows 和 Linux；
+- [Ulysses](https://ulysses.app/)：订阅制收费，支持 macOS 和 iOS；
+- [Visual Studio Code](https://code.visualstudio.com/)：免费，支持 macOS、Windows 和 Linux。
+
+!!! xref "参阅"
+    The Markdown Guide 网站提供了较为全面和完整的 Markdown 相关资源，包括[高级语法](https://www.markdownguide.org/extended-syntax/)、[软件名录](https://www.markdownguide.org/tools/)等。
+
+在将外部编辑器中的 Markdown 文档粘贴到少数派编辑器中时，请特别关注以下细节：
+
+- 由于不同软件支持的 Markdown 语法不尽相同，少数派编辑器未必都能支持，请在粘贴后注意检查和调整；
+- 如果图片是以外部图床链接的形式加入到 Markdown 文档中的，一般需要重新上传（参见上文[插入图片](#online-editor-img)）；
+- 很多第三方编辑器的 Markdown 预览功能会为文字增加一些额外样式，例如文字和链接颜色、两端对齐、表格边框和底色等；这些格式不是都被少数派编辑器支持，也不是都能在少数派编辑器中调整。因此，我们一般不建议将第三方编辑器的 Markdown 预览直接粘贴到少数派编辑器中，以免给后续编辑和发布造成不便。
+
+### 飞书文档
+
+目前，少数派编辑部主要使用[飞书](https://www.feishu.cn/)处理日常办公。因此，如果你希望就待发布的稿件（特别是少数派约稿的稿件）与编辑部在线协作讨论，我们建议提前注册一个飞书账号，并使用其云文档功能与编辑部交接。
+
+!!! warning "注意"
+    飞书同时提供国内版和海外版（称为 Lark）两种不互通的版本，且区分个人账号和企业账号两种不互通的账号类型。请务必确认自己下载的是[国内版飞书](https://www.feishu.cn/hc/zh-CN/articles/360025035993)（其中 iOS 版本仅在中国区 App Store 提供），且使用[个人账号](https://www.feishu.cn/hc/zh-CN/articles/896453689129)登录。
+
+飞书云文档的编辑器是富文本编辑器，其大多数格式可以在粘贴到少数派编辑器时保持原样，但部分图片可能需要重新上传。
+
+!!! xref "参阅"
+    要了解飞书云文档的编辑、排版和写作功能，参阅飞书的[帮助文档](https://www.feishu.cn/hc/zh-CN/categories-detail?category-id=7099738910548312066)。
+
+### API 接口（暂无正式支持）
+
+少数派在过去曾经提供过一些 API 接口，允许从飞书文档和部分第三方编辑器直接发布到少数派站内编辑器。随着相关第三方软件和少数派网站自身的更新，大部分此类功能已经不再适用。权衡开发精力和使用面，我们目前暂时不再对这一特性提供正式支持。如果后续重新提供，我们将相应通知并更新本文档。
 
 ## 文章相关设置
 
