@@ -22,7 +22,7 @@
 
 展示方式是社区通道和投稿通道最主要的区别，两者分别对应 [Matrix 社区](https://sspai.com/matrix)和少数派首页（主时间流）两个板块，但也有可能跨板块发布。
 
-![](/assets/media/homepage.png){width=650}
+![](https://cdn.sspai.com/2022/10/12/5ca38cbe5e771c8ec5a7ea1b540c22d3.png){width=650}
 
 具体而言：
 
@@ -259,7 +259,7 @@
 
 [少数派会员](https://sspai.com/prime/explore)是我们为同样热爱数字生活、乐于思考探索的朋友提供的增值服务。
 
-![](/assets/media/prime.png){width=650}
+![](https://cdn.sspai.com/2022/10/12/55a32ad3bda25c570e98ae49e8dc1a5b.png){width=650}
 
 少数派会员内容主要由编辑部自行出品，但也保留一定比例接受作者投稿。与首页和社区内容相比，会员内容的主要区别在于：
 
@@ -276,7 +276,7 @@
 目前，少数派已拓展出了类型丰富的[付费栏目](https://sspai.com/series)，既包括短小精悍、旨在介绍特定工具用法的快速上手指南，也包括详尽介绍一整套工作流程或经验方法的长篇教程。
 我们还多次协助作者将付费栏目改编为出版物，获得了更大的影响力和收益。
 
-![](/assets/media/column.png){width=650}
+![](https://cdn.sspai.com/2022/10/12/796cfa3b72a0670b5e192d7120a93bc3.png){width=650}
 
 我们目前主要通过邀请制开展付费栏目的创作。
 如果你对于创作付费栏目有兴趣，请[联系我们](/about/contact)。

@@ -9,7 +9,7 @@
 
 在电脑端登录网站后，点击右下方的笔形按钮 :material-pencil: 即可进入编辑器。
 
-![](/assets/media/editor.png){ width="650" }
+![](https://cdn.sspai.com/2022/10/12/affcadb9a3866779710fc063d037dc71.png){ width="650" }
 
 移动版网站、少数派 app、少数派 PWA 版暂不支持编辑器功能。
     如确需在移动端进行简单编辑，可使用浏览器的「请求桌面版网页」功能，并适当缩放页面，
@@ -139,7 +139,7 @@
 
 编辑器支持插入少数派或外部网站的链接卡片，其中包含被链接网页的标题、预览和缩略图等，在行文中使用可以丰富视觉效果。
 
-![](/assets/media/link-preview-card.png){ width="650" }
+![](https://cdn.sspai.com/2022/10/12/fab6854762da7db2629a385322117ee6.png){ width="650" }
 
 要添加链接卡片，点击编辑器内的空白段落，然后点击左侧的加号 :material-plus: 展开「插入」菜单，
     选择「链接卡片」，然后输入目标页面的链接即可。
@@ -159,7 +159,7 @@
 你可以直接在其中输入 iOS 或 Android 应用的名称，或者 App Store、Play Store 及其他主流应用商店的链接进行搜索，
     然后在搜索结果中选择你所需要的应用，点击「确认」即可。
 
-![](/assets/media/app-preview-card.png){ width="650" }
+![](https://cdn.sspai.com/2022/10/12/bca6489a56bbc29bae8f0538feb2c8d3.png){ width="650" }
 
 如果你输入的链接对应的应用未被少数派收录，可以点击「去添加」字样，将该应用手动收录，然后即可插入该应用的卡片。
 
@@ -212,7 +212,7 @@
 
 题图的标准尺寸为 1420 × 708 像素，关键内容应放置在中央 708 × 708 像素的区域。如果上传的题图不符合上述尺寸，可以在上传时根据提示裁剪。如果选择「保留原图」，系统会在显示时自动裁剪。
 
-![](/assets/media/hero-img.png){ width="650" }
+![](https://cdn.sspai.com/2022/10/12/3f67c85f81f7360b417c1ac81a8a1a2f.png){ width="650" }
 
 !!! xref "参阅"
 
@@ -279,7 +279,7 @@
 
 准备好发布后，点击工具栏的「发布按钮」，将弹出「请选择发布通道」界面，提示从 :octicons-people-16: 社区通道 和 :octicons-paper-airplane-16: 投稿通道 中挑选其一。
 
-![](/assets/media/select-channel.png){ width="400" }
+![](https://cdn.sspai.com/2022/10/12/874b3fd17605044446b28539571a5b5c.png){ width="400" }
 
 !!! xref "参阅"
 
