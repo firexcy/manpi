@@ -1,12 +1,15 @@
 site_name: "少数派创作手册"
 site_author: "少数派编辑部"
 site_description: "少数派创作手册"
-site_url: "https://manpi.netlify.app/"
+copyright: "版权所有 &copy; 2022 少数派 SSPAI"
+# testing site
+# site_url: "https://manpi.netlify.app/"
 # pending subdomain
-# site_url: "https://manual.sspai.com"
+site_url: "https://manual.sspai.com"
 extra:
   # Version number to be referenced dynamically
   version: "0.1.0a (build 22101200)"
+  generator: false
 
 nav:
   - "欢迎": index.md
