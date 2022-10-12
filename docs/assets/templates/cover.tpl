@@ -7,5 +7,5 @@
     </path>
   </svg>
 </span>
-<a href="https://manpi.netlify.app/">在线版本</a></span>
+<a href="https://manual.sspai.com/">在线版本</a></span>
 </p>
