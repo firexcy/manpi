@@ -8,7 +8,7 @@ copyright: "版权所有 &copy; 2022 少数派 SSPAI"
 site_url: "https://manual.sspai.com"
 extra:
   # Version number to be referenced dynamically
-  version: "0.1.0a (build 22101400)"
+  version: "0.2.0 (build 23031500)"
   generator: false
 
 nav:
