@@ -38,7 +38,7 @@
 }
 
 /* Color headings */
-.md-typeset :is(h1, h2, h3) {
+.md-typeset :is(h1, h2, h3, h4, h5, h6) {
   color: var(--md-accent-fg-color);
   font-weight: bold;
 }
@@ -195,4 +195,63 @@
 .print-page-toc-nav .print-site-toc-level-2 li,
 .print-page-toc-nav .print-site-toc-level-3 li {
   text-indent: 3%;
+}
+
+/* legal numbering */
+
+h2.legal-list-title {
+  counter-reset: section;
+}
+
+h3.legal-list:before {
+  counter-increment: section;
+  content: "第 " counter(section) " 条 ";
+}
+
+h3.legal-list+ol {
+  counter-reset: clause;
+  list-style: none;
+  margin-left: 0 !important;
+}
+
+h3.legal-list+ol li {
+  counter-increment: clause;
+  list-style: none;
+  margin-left: 0 !important;
+  margin-right: 0.5em;
+}
+
+h3.legal-list+ol li:before {
+  content: counter(section) "." counter(clause) " ";
+}
+
+h3.legal-list+ol li p {
+  display: inline;
+}
+
+h3.legal-list+ol li ol {
+  counter-reset: subclause;
+}
+
+h3.legal-list+ol li ol li {
+  counter-increment: subclause;
+  list-style: none;
+  margin-left: 0 !important;
+  margin-right: 0.5em;
+}
+
+h3.legal-list+ol li ol li:before {
+  content: "(" counter(subclause, lower-alpha) ") ";
+}
+
+h3.legal-list+ol li ol li ol {
+  counter-reset: subsubclause;
+}
+
+h3.legal-list+ol li ol li ol li {
+  counter-increment: subsubclause;
+}
+
+h3.legal-list+ol li ol li ol li:before {
+  content: "(" counter(subsubclause, lower-roman) ") ";
 }

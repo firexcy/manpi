@@ -1,29 +1,29 @@
 site_name: "少数派创作手册"
 site_author: "少数派编辑部"
 site_description: "少数派创作手册"
-copyright: "版权所有 &copy; 2022 少数派 SSPAI"
+copyright: "版权所有 &copy; 2023 少数派 SSPAI"
 # testing site
 # site_url: "https://manpi.netlify.app/"
 # pending subdomain
 site_url: "https://manual.sspai.com"
 extra:
   # Version number to be referenced dynamically
-  version: "0.2.0 (build 23031500)"
+  version: "0.3.0 (build 23061700)"
   generator: false
 
 nav:
   - "欢迎": index.md
   - "创作指南":
-      - "动笔之前": guide/starter.md
-      - "申请创作": guide/apply.md
+      - "动笔之前": guide/idea.md
+      - "开始创作": guide/init.md
       - "文章编辑": guide/edit.md
-      - "提交投稿": guide/submit.md
-      - "审阅流程": guide/process.md
-      - "收益福利": guide/perks.md
-  - "风格规范":
-      - "通用规则": rules/common.md
-      - "特别规则": rules/specific.md
+      - "提交流程": guide/proc.md
+      - "作者权益": guide/good.md
+  - "规则规范":
+      - "审阅标准": rules/review.md
+      - "特别规则": rules/special.md
       - "风格指南": rules/style.md
+      - "作者协议": rules/agreement.md
   - "关于":
       - "联系我们": about/contact.md
       - "许可信息": about/license.md

@@ -14,7 +14,6 @@
 成员|负责话题和事务
 ---|---
 [Clyde (克莱德)](https://sspai.com/u/clyde/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/clyde)|:octicons-hash-16: Android 和 Windows 系统和设备等话题<br>:octicons-checkbox-16: 首页文章编排、数码类产品商务合作
-[Kiririn](https://sspai.com/u/Kiririn/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/Kiririn)|:octicons-hash-16: 游戏、经典设备等话题
 [Lincoln (广陵止息)](https://sspai.com/u/kgguxr0e/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/kgguxr0e)|:octicons-hash-16: 设计、技术原理、智能联网设备等话题
 [Lotta](https://sspai.com/u/ppfv4au3/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/ppfv4au3)|:octicons-hash-16: 影视、生活等话题
 [Microhoo](https://sspai.com/u/Microhoo/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/Microhoo)|:octicons-hash-16: 家居、烹饪、运动健身等话题<br>:octicons-checkbox-16: 生活类产品商务合作
