@@ -11,7 +11,7 @@ jobs:
     env:
       TAG_NAME: '0.0.0'
     steps:
-      - name: Checkout main
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -20,15 +20,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip' # caching pip dependencies
+          cache: 'pip'
         
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
       
-      - name: Build Docs
-        run: |
-          mkdocs build
+      - name: Build
+        run: mkdocs build
       
       - name: Set current tag
         run: |
@@ -42,22 +40,17 @@ jobs:
           
       - name: Download QShell
         run: |
-          wget -O qshell.tar.gz https://github.com/qiniu/qshell/releases/download/v2.13.0/qshell-v2.13.0-linux-amd64.tar.gz
+          wget -O qshell.tar.gz $(curl -s https://api.github.com/repos/qiniu/qshell/releases/latest | jq -r '.assets[] | select(.name | test("linux-amd64.tar.gz$")) | .browser_download_url')
           tar -xzf qshell.tar.gz
 
-      - name: Print workspace path
+      - name: Upload to Qiniu
         run: |
-          echo "Workspace path: ${{ github.workspace }}"
-
-      - name: Run qshell command
-        run: |
-          ${{ github.workspace }}/qshell account ${{  secrets.CI_CDN_ACCESS_KEY }} ${{ secrets.CI_CDN_SECRET_KEY }} manpi
+          ${{ github.workspace }}/qshell account ${{ secrets.CI_CDN_ACCESS_KEY }} ${{ secrets.CI_CDN_SECRET_KEY }} manpi
           ${{ github.workspace }}/qshell qupload2 --src-dir=${{ github.workspace }}/site --bucket=${{ secrets.CI_CDN_BUCKET }} --overwrite=true
       
-      - name: 'Upload Release'
+      - name: Create a new release
         uses: softprops/action-gh-release@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           body_path: ${{ github.workspace }}/docs/about/changelog.md
-          files: |
-            manpi_release_${{ env.TAG_NAME }}.zip
+          files: manpi_release_${{ env.TAG_NAME }}.zip
