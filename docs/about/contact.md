@@ -13,17 +13,16 @@
 
 成员|负责话题和事务
 ---|---
-[Clyde (克莱德)](https://sspai.com/u/clyde/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/clyde)|Android 和 Windows 系统和设备等话题<br>首页文章编排、数码类产品商务合作
-[Lincoln (广陵止息)](https://sspai.com/u/kgguxr0e/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/kgguxr0e)|设计、技术原理、智能联网设备等话题
-[Lotta](https://sspai.com/u/ppfv4au3/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/ppfv4au3)|影视、生活等话题
-[Microhoo](https://sspai.com/u/Microhoo/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/Microhoo)|家居、烹饪、运动健身等话题<br>生活类产品商务合作
-[Nick (张奕源)](https://sspai.com/u/nicholaszhang/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/nicholaszhang)|播客、摄影等话题<br>会员内容策划、播客对外合作
-[PlatyHsu](https://sspai.com/u/platyhsu/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/platyhsu)|效率工具、自动化、技术原理、法律等话题<br>会员内容策划、一般法律事务
-[Sainho](https://sspai.com/u/zimpo3jv/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/zimpo3jv)| 付费栏目策划、专栏申请和维护
-[Tp](https://sspai.com/u/tpamazing/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/tpamazing)|移动设备和应用日常技巧等话题<br>微信渠道文章编排
-[Waychane](https://sspai.com/u/waychane/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/waychane)|Apple 设备和平台、独立应用开发等话题<br>开发者自荐和产品推广
-[北鸮](https://sspai.com/u/thebaldingken/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/thebaldingken)|电脑外设、医学健康等话题
-[路中南](https://sspai.com/u/LuZhNan/updates) [:octicons-comment-discussion-16:](https://sspai.com/message/LuZhNan)|作者申请和关系维护、社区运营维护
+[Clyde (克莱德)](https://sspai.com/u/clyde/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/clyde)|Android 和 Windows 系统和设备等话题<br>首页文章编排、数码类产品商务合作
+[Lincoln (广陵止息)](https://sspai.com/u/kgguxr0e/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/kgguxr0e)|设计、技术原理、智能联网设备等话题
+[Lotta](https://sspai.com/u/ppfv4au3/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/ppfv4au3)|影视、生活等话题
+[Microhoo](https://sspai.com/u/Microhoo/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/Microhoo)|家居、烹饪、运动健身等话题<br>生活类产品商务合作
+[Nick (张奕源)](https://sspai.com/u/nicholaszhang/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/nicholaszhang)|播客、摄影等话题<br>会员内容策划、播客对外合作
+[PlatyHsu](https://sspai.com/u/platyhsu/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/platyhsu)|效率工具、自动化、技术原理、法律等话题<br>会员内容策划、付费栏目策划<br>一般法律事务
+[Tp](https://sspai.com/u/tpamazing/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/tpamazing)|移动设备和应用日常技巧等话题<br>微信渠道文章编排
+[Waychane](https://sspai.com/u/waychane/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/waychane)|Apple 设备和平台、独立应用开发等话题<br>开发者自荐和产品推广
+[北鸮](https://sspai.com/u/thebaldingken/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/thebaldingken)|电脑外设、医学健康等话题
+[路中南](https://sspai.com/u/LuZhNan/updates) [:octicons-comment-discussion-16:](https://sspai.com/notifications/message/LuZhNan)|作者申请和关系维护、社区运营维护
 
 ## 邮件联系
 
