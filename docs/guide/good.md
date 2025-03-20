@@ -54,7 +54,7 @@
 
 在弹出的「提现确认」窗口中确认支付账户无误，然后点击「确定」，即可发起提现。如果需要修改支付账户，点击导航栏右侧的头像，选择「[账号设置](https://sspai.com/setting/profile)」，然后选择[实名认证](https://sspai.com/setting/auth)。
 
-![](https://cdn.sspai.com/2022/10/12/6250b10c30ea0bafb6c74de391185e31.png){ width="650" }
+![](https://cdnfile.sspai.com/2025/03/20/aab8238f3be4f01927a13d282d438cdb.png){ width="650" }
 
 已发起的提现会列举在下方的「提现记录」列表中，你可以点击每条记录右侧的「查看详情」了解处理进度和明细。
 
@@ -76,7 +76,7 @@
 
 共创计划成员均有权访问少数派[会员社区](https://sspai.com/community)的两个子版块：「[创作酒馆](https://sspai.com/community/muse)」和「[脑大洞开](https://sspai.com/community/whim)」，在其中与其他签约作者、以及少数派经筛选的优质用户——少数派会员们相互交流。
 
-![](https://cdn.sspai.com/2023/03/03/c003aa1993a8897f3b3fc7138351edec.jpg){ width="400" }
+![](https://cdnfile.sspai.com/2025/03/20/ec57843175e1533693059f98338d182c.jpg){ width="400" }
 
 其中：
 
@@ -91,7 +91,7 @@
 
 为了让少数派作者更好地上手写作，我们向每位新作者赠送付费栏目《[给少数派的写作建议](https://sspai.com/series/268)》。
 
-![](https://cdn.sspai.com/2022/10/12/ace095b2ef22fd7fa4da54545de5c8d8.png){ width="400" }
+![](https://cdnfile.sspai.com/2025/03/20/36cd72198d46323dd62f9cb0c2ec1d1c.png){ width="400" }
 
 《给少数派的写作建议》由少数派编辑和部分优秀作者集体创作，从少数派常见的写作场景和题材出发，以少数派发表过的文章为实例，以帮助写出达到少数派发表标准的文章为目标。该栏目包括七篇通用写作建议和若干个人分享，后续还会不时更新。
 

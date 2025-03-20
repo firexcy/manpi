@@ -2,7 +2,7 @@
 
 ## 流程图示 {#flowchart}
 
-![](https://cdn.sspai.com/2023/06/20/e5188322bbf0d362856edcf84349c1dd.png)
+![](https://cdnfile.sspai.com/2025/03/20/61f4a91f35a1970aa4e907d531efb165.png)
 
 ## 提交方式的选择 {#pathways}
 

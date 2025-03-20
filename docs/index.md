@@ -7,7 +7,7 @@ hide:
 # 欢迎
 
 <figure markdown>
-  ![](https://cdn.sspai.com/2022/10/12/a087188fb5220bfd51aae24bded88af9.png)
+  ![](https://cdnfile.sspai.com/2025/03/20/a5fe888f3d81f9dcadf4aee4e3616c59.png)
   <figcaption><u>The Sea Otter by Charles</u>, Hamilton Smith (ca. 1837)</figcaption>
 </figure>
 
